@@ -39,7 +39,7 @@ or
 mode.  The user may quit the program by typing "exit", "Ctrl + D", or "Ctrl + C" on the command line.
 When the program quits or a command has been executed,
 .B simple shell
-returns with a new prompt: "WORK$ "
+returns with a new prompt: "$ "
 
 .B Example
 .IP
@@ -64,45 +64,32 @@ quits the program, exits the shell.
 
 .B env:
 prints the environment variables
-
-.SH HISTORY
-The
-.B history
-built-in displays the history list, one command per line, preceded with line numbers, starting with 0. On exit the entire history is written to a file named
-.I simple_shell_history
-in the
-.I $HOME
-directory.
-.SH SHELL BUILTIN COMMANDS
-The commands
-.B exit
-and
-.B env
-are handled automatically by
-.B simple shell
 .PP
 .SH FILES
 .PP
 .I simple_shell.h
-- Header file, contains the prototypes of the functions used and the libraries.
+- In this header file all the necessary libraries and function prototypes are stored, as well as the environ.
 .PP
 .I main_shell.c
-- Contains the main function and the signal handler function.
+- This file contains the main function of this shell, including the function in charge of handling signs.
 .PP
 .I read_tokenize.c
-- Contains the line reader entered by the stdin and the tokenizer.
+- Contains the function that reads the line of the standard input and the tokenizer function as well, which return their result to the main.
 .PP
 .I compare_execute.c
-- Contains the main function.
+- In this file there is a function in charge of comparing if the tokens are built-in or belong to the PATH, executing them respectively.
+.PP
+.I cases_functions.c
+- Contains the semicolon function.
 .PP
 .I builtin_functions.c
-- Contains the main function.
+- Contains Built-in functions.
 .PP
 .I auxiliar_functions.c
-- Contains the main function.
+- Contains all the auxiliary functions that I need to carry out various processes.
 .PP
 .I control_errors.c
-- Contains the main function.
+- Contains the function in charge of the error outputs.
 .PP
 .SH BUGS
 .PP
