@@ -42,7 +42,7 @@ int executing(char **tokens, char *line)
 {
 	pid_t pid;
 	int status;
-	char path[128] = "/bin", *aux = "/b";
+	char path[4096] = "/bin", *aux = "/b";
 
 	if (line[0] == aux[0] && line[1] == aux[1])
 	{
