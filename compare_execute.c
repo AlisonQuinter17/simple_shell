@@ -41,6 +41,7 @@ int comparing(char **tokens)
 int executing(char **tokens, char *line)
 {
 	pid_t pid;
+	int o;
 	int status;
 	char path[8192] = "/bin", *aux = "/b", *aux2 = " /b";
 
@@ -50,7 +51,12 @@ int executing(char **tokens, char *line)
 	}
 	else if (line[0] == aux2[0])
 	{
-		_strcpy(path, "/bin/ls");
+		for(o=0;line[o] != '\0';o++)
+		{
+			if (line[o] == aux2[1])
+				if (line[o-1] == aux2[0])
+				        _strcpy(path, "/bin/ls");
+		}
 	}
 	else
 	{
