@@ -42,11 +42,15 @@ int executing(char **tokens, char *line)
 {
 	pid_t pid;
 	int status;
-	char path[8192] = "/bin", *aux = "/b";
+	char path[8192] = "/bin", *aux = "/b", *aux2 = " /b";
 
 	if (line[0] == aux[0] && line[1] == aux[1])
 	{
 		_strcpy(path, line);
+	}
+	else if (line[0] == aux2[0])
+	{
+		_strcpy(path, "/bin/ls");
 	}
 	else
 	{
