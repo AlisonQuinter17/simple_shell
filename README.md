@@ -10,7 +10,7 @@ built-in commands or not, to go through the forking process. which
 immediately handles calls to the execv system, running according to
 the process and finally exiting with exit or ^D.
 
-## How To Install & Compile ##
+## HOW TO INSTALL & COMPILE ##
 To have this repository and its content, you must execute the following on
 your terminal:
 ~~~
