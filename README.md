@@ -23,22 +23,22 @@ And execute the following in your terminal:
 ~~~
 $ gcc -Wall -Werror -Wextra -pedantic *.c -o hsh
 $ ./hsh
-WORK$ |
+$ |
 ~~~
 
 ## Description Of The Files Contained. ##
 
 | File  name   | Description   |
 | ------------- |:-------------:|
-| simple_shell.h | Header file, contains the prototypes of the functions used that can be found in the other files. |
-| main_shell.c      | Contains...|
-| read_tokenize.c    | Contains... |
-| compare_execute.c    | Contains...|
-| builtin_functions.c | Contains...|
-| auxiliar_functions.c | Contains...|
-| control_errors.c | Contains...|
-| man_1_simple_shell   | Custom manual for our basic shell.|
-| AUTHORS   | Conatains...|
+| simple_shell.h | In this header file all the necessary libraries and function prototypes are stored, as well as the environ. |
+| main_shell.c      | This file contains the main function of this shell, including the function in charge of handling signs. |
+| read_tokenize.c    | Contains the function that reads the line of the standard input and the tokenizer function as well, which return their result to the main. |
+| compare_execute.c    | In this file there is a function in charge of comparing if the tokens are built-in or belong to the PATH, executing them respectively. |
+| builtin_functions.c | Contains Built-in functions. |
+| auxiliar_functions.c | It contains all the auxiliary functions that I need to carry out various processes. |
+| control_errors.c | Contains the function in charge of the error outputs. |
+| man_1_simple_shell   | Custom manual page for our basic shell.|
+| AUTHORS   | In this file listing all individuals having contributed content to the repository.|
 
 ### Note ###
 If you want to review the manual of our Simple Shell function you can execute
@@ -70,12 +70,12 @@ Here are some examples of how our simple shell works:
     PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/alzheimeer/.dotnet/tools  
     DISPLAY=:0
 
-- $ cd [DIRECTORY]
+- $ cd [DIRECTORY]  
   $ pwd
   + /home/alzheimeer/tmpalison/simple_shell/[DIRECTORY]
 
 - exit
-  + ~/tmpalison/simple_shell on  master! ⌚ 22:18:55
+  + ~/tmpalison/simple_shell on  master! ⌚ 22:18:55  
   $
 
 ## Environment ##
