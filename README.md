@@ -51,7 +51,7 @@ $ man ./man_1_simple_shell
 Here are some examples of how our simple shell works:
 
 - $ /bin/ls
-  + AUTHORS		      builtin_functions.c  compare_execute.c  hsh      main_shell.c	   README.md	    simple_shell.h
+  + AUTHORS		      builtin_functions.c  compare_execute.c   main_shell.c	   README.md	    simple_shell.h
     auxiliar_functions.c  cases_functions.c    control_errors.c   LICENSE  man_1_simple_shell  read_tokenize.c
   $
 
@@ -60,14 +60,14 @@ Here are some examples of how our simple shell works:
 
 - $ env
   + LOGNAME=alison  
-    LANGUAGE=en_US
-    COMPIZ_CONFIG_PROFILE=ubuntu
-    DESKTOP_SESSION=ubuntu
-    IM_CONFIG_PHASE=1
-    DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path
-    GDM_LANG=en_US
-    SHELL=/usr/bin/zsh
-    PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/alzheimeer/.dotnet/tools
+    LANGUAGE=en_US  
+    COMPIZ_CONFIG_PROFILE=ubuntu  
+    DESKTOP_SESSION=ubuntu  
+    IM_CONFIG_PHASE=1  
+    DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path  
+    GDM_LANG=en_US  
+    SHELL=/usr/bin/zsh  
+    PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/alzheimeer/.dotnet/tools  
     DISPLAY=:0
 
 - $ cd [DIRECTORY]
