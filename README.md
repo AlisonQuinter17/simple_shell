@@ -22,7 +22,7 @@ $ ls
 And execute the following in your terminal:
 ~~~
 $ gcc -Wall -Werror -Wextra -pedantic *.c -o hsh
-$ ./hsh
+$ ./hsh [arg...]
 $ |
 ~~~
 
