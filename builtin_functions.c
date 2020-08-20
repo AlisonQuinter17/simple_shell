@@ -38,8 +38,7 @@ int _cd(char **args)
 {
 	if (args[1] == NULL)
 	{
-		fprintf (stderr, "lsh: allocation error\n");
-		exit(EXIT_FAILURE);
+		return(2);
 	}
 	else
 	{

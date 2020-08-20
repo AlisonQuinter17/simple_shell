@@ -60,12 +60,14 @@ int executing(char **tokens, char *line)
 		if (execve(path, tokens, NULL) == -1)
 		{
 			errors(tokens);
+			return(0);
 		}
 		exit(EXIT_FAILURE);
 	}
 	else if (pid < 0)
 	{
 		errors(tokens);
+		return(0);
 	}
 	else
 	{

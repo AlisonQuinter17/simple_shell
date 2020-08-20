@@ -46,5 +46,6 @@ int semicolon(char *line)
 			free(tokens);
 		}
 	}
+	free(total);
 	return (0);
 }

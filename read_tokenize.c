@@ -52,7 +52,6 @@ char **cutting(char *line)
 	}
 
 	slice = strtok(line, DELIMITERS);
-
 	while (slice)
 	{
 		tokens[position] = slice;
