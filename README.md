@@ -51,8 +51,8 @@ $ man ./man_1_simple_shell
 Here are some examples of how our simple shell works:
 
 - $ /bin/ls
-  + AUTHORS		      builtin_functions.c  compare_execute.c   main_shell.c	   README.md	    simple_shell.h
-    auxiliar_functions.c  cases_functions.c    control_errors.c   LICENSE  man_1_simple_shell  read_tokenize.c
+  + AUTHORS builtin_functions.c compare_execute.c main_shell.c README.md simple_shell.h  
+    auxiliar_functions.c cases_functions.c control_errors.c LICENSE man_1_simple_shell read_tokenize.c
   $
 
 - $ pwd
