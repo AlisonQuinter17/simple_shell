@@ -1,5 +1,4 @@
 #include "simple_shell.h"
-#define SEMICOLON ";"
 
 /**
  * semicolon -  This function handle the commands separator ";"
@@ -18,12 +17,12 @@ int semicolon(char *line)
 	{
 		exit(EXIT_FAILURE);
 	}
-	one_token = strtok(line, SEMICOLON);
+	one_token = strtok(line, ";");
 	while (one_token)
 	{
 		total[i] = one_token;
 		i++;
-		one_token = strtok(NULL, SEMICOLON);
+		one_token = strtok(NULL, ";");
 	}
 	total[i] = NULL;
 	if (total[1] == NULL)

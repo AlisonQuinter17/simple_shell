@@ -1,5 +1,4 @@
 #include "simple_shell.h"
-#define DELIMITERS " \t\n\r"
 
 /**
  * reading - lecture function.
@@ -51,13 +50,13 @@ char **cutting(char *line)
 		exit(EXIT_FAILURE);
 	}
 
-	slice = strtok(line, DELIMITERS);
+	slice = strtok(line, " \t\n\r");
 	while (slice)
 	{
 		tokens[position] = slice;
 		position++;
 
-		slice = strtok(NULL, DELIMITERS);
+		slice = strtok(NULL, " \t\n\r");
 	}
 	tokens[position] = NULL;
 	return (tokens);
