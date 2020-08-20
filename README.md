@@ -59,7 +59,7 @@ Here are some examples of how our simple shell works:
   + /home/alzheimeer/tmpalison/simple_shell
 
 - $ env
-  + LOGNAME=alison
+  + LOGNAME=alison  
     LANGUAGE=en_US
     COMPIZ_CONFIG_PROFILE=ubuntu
     DESKTOP_SESSION=ubuntu
