@@ -1,6 +1,6 @@
 # Simple Shell (Markdown in process)
 
-## Description
+## DESCRIPTION
 
 This project consists of creating our own version of a simple shell which is capable of interacting directly with the user through commands, we
 create a system that is capable of handling a path that is in charge
