@@ -75,5 +75,5 @@ and
 
 ## Authors
 
-- Valeria Trujillo - valeria.trujillo-rodriguez@holbertonschool.com
+- Valeria Trujillo - vtrujillorodriguez70@gmail.com / https://twitter.com/@valtrurodriguez
 - Alison Quintero - alisondanellaquintero@hotmail.com / https://twitter.com/AlisonQuinter17
