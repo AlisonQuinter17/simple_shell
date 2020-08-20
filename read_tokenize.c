@@ -17,7 +17,7 @@ char *reading(void)
 
 	container = getline(&line, &buffsize, stdin);
 
-	if (container == -1)
+	if (container == EOF)
 	{
 		free(line);
 		exit(0);
