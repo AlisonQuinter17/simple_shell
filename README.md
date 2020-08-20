@@ -1,5 +1,11 @@
 # Simple Shell (Markdown in process)
 
+[![Simple Shell Holberton School
+Project](https://www.bing.com/images/blob?bcid=Tk1OuGVZDzUBYw "Simple
+Shell Holberton School
+Project")](https://www.bing.com/images/blob?bcid=Tk1OuGVZDzUBYw
+"Simple Shell Holberton School Project")
+
 ## DESCRIPTION
 
 This project consists of creating our own version of a simple shell which is capable of interacting directly with the user through commands, we
