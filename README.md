@@ -1,6 +1,6 @@
 # Simple Shell (Markdown in process)
 
-## Description
+## DESCRIPTION
 
 This project consists of creating our own version of a simple shell which is capable of interacting directly with the user through commands, we
 create a system that is capable of handling a path that is in charge
@@ -10,7 +10,7 @@ built-in commands or not, to go through the forking process. which
 immediately handles calls to the execv system, running according to
 the process and finally exiting with exit or ^D.
 
-## How To Install & Compile ##
+## HOW TO INSTALL & COMPILE ##
 To have this repository and its content, you must execute the following on
 your terminal:
 ~~~
@@ -75,5 +75,5 @@ and
 
 ## Authors
 
-- Valeria Trujillo - valeria.trujillo-rodriguez@holbertonschool.com
+- Valeria Trujillo - vtrujillorodriguez70@gmail.com / https://twitter.com/@valtrurodriguez
 - Alison Quintero - alisondanellaquintero@hotmail.com / https://twitter.com/AlisonQuinter17

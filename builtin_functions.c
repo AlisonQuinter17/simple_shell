@@ -38,7 +38,7 @@ int _cd(char **args)
 {
 	if (args[1] == NULL)
 	{
-		return(2);
+		return (2);
 	}
 	else
 	{

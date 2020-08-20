@@ -47,7 +47,7 @@ char **cutting(char *line)
 
 	if (!tokens)
 	{
-		fprintf (stderr, "lsh: allocation error\n");
+		fprintf(stderr, "lsh: allocation error\n");
 		exit(EXIT_FAILURE);
 	}
 
