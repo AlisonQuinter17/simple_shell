@@ -34,6 +34,7 @@ $ |
 | main_shell.c      | This file contains the main function of this shell, including the function in charge of handling signs. |
 | read_tokenize.c    | Contains the function that reads the line of the standard input and the tokenizer function as well, which return their result to the main. |
 | compare_execute.c    | In this file there is a function in charge of comparing if the tokens are built-in or belong to the PATH, executing them respectively. |
+| cases_functions.c   | This file contains the semicolon function. |
 | builtin_functions.c | Contains Built-in functions. |
 | auxiliar_functions.c | It contains all the auxiliary functions that I need to carry out various processes. |
 | control_errors.c | Contains the function in charge of the error outputs. |
