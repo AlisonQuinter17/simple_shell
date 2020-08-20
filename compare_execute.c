@@ -57,7 +57,7 @@ int executing(char **tokens, char *line)
 	pid = fork();
 	if (pid == 0)
 	{
-		if (execve(path, tokens, NULL) == -1)
+		if (execve(path, tokens, environ) == -1)
 		{
 			errors(tokens);
 			return (0);
