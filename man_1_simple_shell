@@ -41,7 +41,7 @@ When the program quits or a command has been executed,
 .B simple shell
 returns with a new prompt: "$ "
 
-.B Example
+.B Examples
 .IP
 
 $./hsh
@@ -58,6 +58,24 @@ $/bin/pwd
 
 $
 
+
+$./hsh
+
+$ls
+
+AUTHORS		      builtin_functions.c  compare_execute.c  hsh      main_shell.c	   README.md	    simple_shell.h
+auxiliar_functions.c  cases_functions.c    control_errors.c   LICENSE  man_1_simple_shell  read_tokenize.c
+
+
+$
+
+$/bin/ls
+
+AUTHORS		      builtin_functions.c  compare_execute.c  hsh      main_shell.c	   README.md	    simple_shell.h
+auxiliar_functions.c  cases_functions.c    control_errors.c   LICENSE  man_1_simple_shell  read_tokenize.c
+
+$
+.PP
 .SH RESERVED WORDS
 .B exit:
 quits the program, exits the shell.
