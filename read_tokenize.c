@@ -19,6 +19,7 @@ char *reading(void)
 
 	if (container == -1)
 	{
+		free(line);
 		exit(0);
 	}
 	return (line);
