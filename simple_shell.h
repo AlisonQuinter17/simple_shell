@@ -30,7 +30,7 @@ void _env(char **commands);
 int _cd(char **args);
 
 /* Errors Prototypes */
-void errors(char **tokens);
+void errors(char __attribute__((unused)) **tokens);
 
 /* Auxiliar Prototypes */
 int _putchar(char c);
