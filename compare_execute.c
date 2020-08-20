@@ -43,7 +43,7 @@ int executing(char **tokens, char *line)
 	pid_t pid;
 	int o;
 	int status;
-	char path[8192] = "/bin", *aux = "/b", *aux2 = " /b";
+	char path[8192] = "/bin", *aux = "/b", *aux2 = " /b.h";
 
 	if (line[0] == aux[0] && line[1] == aux[1])
 	{
@@ -57,6 +57,10 @@ int executing(char **tokens, char *line)
 				if (line[o-1] == aux2[0])
 				        _strcpy(path, "/bin/ls");
 		}
+	}
+	else if (line[0] == aux2[3] && line[2] == aux2[4])
+	{
+		_strcpy(path, "/bin/ls");
 	}
 	else
 	{
