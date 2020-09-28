@@ -89,5 +89,4 @@ and
 
 ## Authors
 
-- Valeria Trujillo - vtrujillorodriguez70@gmail.com / https://twitter.com/@valtrurodriguez
 - Alison Quintero - alisondanellaquintero@hotmail.com / https://twitter.com/AlisonQuinter17
